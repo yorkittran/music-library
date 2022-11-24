@@ -1,10 +1,10 @@
-const { Schema, model } = require('.');
+const { Schema, model } = require(".");
 
 const songsSchema = new Schema({
-    title: String,
-    artist: String
+  title: String,
+  artist: String,
 });
 
-const Songs = model('Songs', songsSchema);
+const Songs = model("Songs", songsSchema);
 
 module.exports = Songs;
